@@ -1,0 +1,4 @@
+nltk==3.6.7
+PyQt5==5.15.6
+pyttsx3==2.90
+streamlit==1.8.1
