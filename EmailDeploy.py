@@ -10,8 +10,8 @@ stops = stopwords.words('english')
 punct = list(string.punctuation)
 ps = PorterStemmer()
 
-Model = pickle.load(open("C:\\Users\\ATIF SHAIK\\EmailModel.pkl", 'rb'))
-Vector = pickle.load(open("C:\\Users\\ATIF SHAIK\\TfidfEmail.pkl", 'rb'))
+Model = pickle.load(open("EmailModel.pkl", 'rb'))
+Vector = pickle.load(open("TfidfEmail.pkl", 'rb'))
 
 print(Model)
 print(Vector)
