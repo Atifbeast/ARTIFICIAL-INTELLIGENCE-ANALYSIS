@@ -5,7 +5,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import string
-nltk.download('stopwords')
+nltk.download()
 stops = stopwords.words('english')
 punct = list(string.punctuation)
 ps = PorterStemmer()
