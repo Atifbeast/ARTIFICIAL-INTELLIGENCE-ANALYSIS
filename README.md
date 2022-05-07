@@ -1,4 +1,4 @@
-# Email-SMS-spam-Detection
+# AI ANALYSIS
 
-Check for spam mails using this Web Link
-HOW TO REACH MY APP - https://share.streamlit.io/atifbeast/email-sms-spam-detection/main/EmailDeploy.py
+Check for spam mails or do tweets sentiment analysis using this Web Link
+HOW TO REACH MY APP - 
