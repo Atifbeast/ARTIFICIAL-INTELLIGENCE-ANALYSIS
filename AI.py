@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import nltk
 nltk.download('stopwords')
-nltk.download('')
+nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
