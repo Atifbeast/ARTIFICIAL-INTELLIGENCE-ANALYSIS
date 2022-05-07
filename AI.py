@@ -144,15 +144,12 @@ def stream2():
                 prob = float(prob)
 
                 if prob in l:
-                    st.write('came')
                     # print('Neutral Tweet')
                     neu.append(i)
                 elif ans == 1:
-                    st.write('p came')
                     # print('Positive Tweet')
                     pos.append(i)
                 elif ans == 0:
-                    st.write('n came')
                     neg.append(i)
             st.write('idhar')
             st.write(f"NUMBER OF POSITIVE TWEETS : {len(pos)}")
@@ -167,8 +164,8 @@ def stream2():
             st.markdown(f'<p style="background-color:black;color:orange;font-size:24px;border-radius:2%;">NEUTRAL TWEETS : </p>', unsafe_allow_html=True)
             st.write(neu)
 
-        except Exception:
-            pass
+        except Exception as e:
+            st.write(e)
 
     elif len(twit) == 0:
         st.error("ERROR : UserName Required")     
