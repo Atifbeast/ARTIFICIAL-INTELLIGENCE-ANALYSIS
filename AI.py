@@ -3,6 +3,7 @@ import pickle
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('omw-1.4')
 nltk.download('wordnet')
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import TweetTokenizer
