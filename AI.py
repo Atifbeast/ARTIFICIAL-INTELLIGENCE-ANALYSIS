@@ -153,7 +153,7 @@ def stream2():
                     pos.append(i)
                 elif ans == 0:
                     neg.append(i)
-            st.write('idhar')
+            
             st.write(f"NUMBER OF POSITIVE TWEETS : {len(pos)}")
             st.write(f"NUMBER OF NEGATIVE TWEETS : {len(neg)}")
             st.write(f"NUMBER OF NEUTRAL TWEETS : {len(neu)}")
