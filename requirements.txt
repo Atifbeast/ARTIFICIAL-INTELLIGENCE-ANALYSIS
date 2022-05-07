@@ -1,5 +1,14 @@
+beautifulsoup4==4.11.1
+nltk==3.6.7
+numpy==1.21.4
+pandas==1.3.5
+Pillow==9.1.0
+requests==2.27.1
+selenium==4.1.5
+streamlit==1.8.1
+tweepy==4.9.0
+webdriver_manager==3.5.4
 nltk==3.6.7
 PyQt5==5.15.6
-pyttsx3==2.90
 streamlit==1.8.1
 scikit-learn==1.0.1
