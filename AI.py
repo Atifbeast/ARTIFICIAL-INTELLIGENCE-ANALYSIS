@@ -137,7 +137,7 @@ def stream2():
                 final = vector2.transform(final).toarray()
                 ans = Model2.predict(final)
                 
-                l = [0.47, 0.46, 0.45, 0.48, 0.49, 0.50, 0.51, 0.52, 0.53] 
+                l = [0.44, 0.47, 0.46, 0.45, 0.48, 0.49, 0.50, 0.51, 0.52, 0.53] 
 
                 prob = Model2.predict_proba(final)
                 prob = prob[0][1]
