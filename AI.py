@@ -101,7 +101,8 @@ def stream2():
     but = st.button("ANALYZE IT", key=1) 
     # global pos, neg, neuS
     if but and len(twit)!=0: 
-        tweets(twit, numberv) # tmp is a list stored with tweets
+        tweets(twit, numberv)
+        st.write('came')# tmp is a list stored with tweets
         pos = []
         neg = []
         neu = []
@@ -151,7 +152,7 @@ def stream2():
                     pos.append(i)
                 elif ans == 0:
                     neg.append(i)
-
+            st.write('idhar')
             st.write(f"NUMBER OF POSITIVE TWEETS : {len(pos)}")
             st.write(f"NUMBER OF NEGATIVE TWEETS : {len(neg)}")
             st.write(f"NUMBER OF NEUTRAL TWEETS : {len(neu)}")
