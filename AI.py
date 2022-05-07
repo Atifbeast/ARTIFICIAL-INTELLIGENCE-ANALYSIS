@@ -167,7 +167,7 @@ def stream2():
             st.write(neu)
 
         except Exception as e:
-            st.write(e)
+            pass
 
     elif len(twit) == 0:
         st.error("ERROR : UserName Required")     
