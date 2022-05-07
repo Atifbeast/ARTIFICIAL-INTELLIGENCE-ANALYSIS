@@ -101,8 +101,7 @@ def stream2():
     but = st.button("ANALYZE IT", key=1) 
     # global pos, neg, neuS
     if but and len(twit)!=0: 
-        tweets(twit, numberv)
-        st.write('came')# tmp is a list stored with tweets
+        tweets(twit, numberv) # tmp is a list stored with tweets
         pos = []
         neg = []
         neu = []
@@ -134,8 +133,8 @@ def stream2():
                 final = [final]
 
                 final = vector2.transform(final).toarray()
-                ans = Model2.predict(final)  
-
+                ans = Model2.predict(final)
+                
                 l = [0.48, 0.49, 0.50, 0.51, 0.52, 0.53] 
 
                 prob = Model2.predict_proba(final)
@@ -144,13 +143,16 @@ def stream2():
                 prob = f.format(prob) 
                 prob = float(prob)
 
-                if prob in l: 
+                if prob in l:
+                    st.write('came')
                     # print('Neutral Tweet')
                     neu.append(i)
                 elif ans == 1:
+                    st.write('p came')
                     # print('Positive Tweet')
                     pos.append(i)
                 elif ans == 0:
+                    st.write('n came')
                     neg.append(i)
             st.write('idhar')
             st.write(f"NUMBER OF POSITIVE TWEETS : {len(pos)}")
