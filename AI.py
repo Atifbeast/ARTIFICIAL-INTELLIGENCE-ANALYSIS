@@ -3,6 +3,7 @@ import pickle
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('wordnet')
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
@@ -165,7 +166,7 @@ def stream2():
             st.write(neu)
 
         except Exception as e:
-            st.write(e)
+            pass
 
     elif len(twit) == 0:
         st.error("ERROR : UserName Required")     
